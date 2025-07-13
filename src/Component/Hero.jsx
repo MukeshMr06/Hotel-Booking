@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <div className='flex flex-col items-start justify-center px-6
     md:px-14 lg:px-24 xl:px-32 text-white 
-    bg-[url("/src/assets/heroImage.png")] bg-no-repeat bg-cover bg-center h-screen'>
-            <p className='bg-[#49B9FF] px-3.5 py-1 rounded-full mt-20'>The Ultimate Hotel Experience</p>
+    bg-[url("/src/assets/heroImage.png")] bg-no-repeat bg-cover bg-center h-[620px] '>
+            <p className='sm:mt-20 bg-[#49B9FF] px-3.5 py-1 rounded-full mt-20'>The Ultimate Hotel Experience</p>
             <h1 className='font-playfair text-2xl md:text-5xl md:text-[56px] md:leading-[56px] 
             font-bold md:font-extrabold max-w-xl mt-4'>Discover your perfect Gateway Destination</h1>
             <p className='max-w-130 mt-2 text-sm md:text-base'>Unparalleled luxury and comfort await at the world's most exculsive hotels and resorts.
@@ -14,7 +14,7 @@ const Hero = () => {
             </p>
 
 
-            <form className='bg-white text-gray-500 rounded-lg px-6 py-4  flex flex-col md:flex-row max-md:items-start mt-8 gap-4 max-md:mx-auto'>
+            <form className='bg-white text-gray-500 rounded-lg px-6 py-4  flex flex-col  md:flex-row max-md:items-start mt-8 gap-4 max-md:mx-auto'>
 
                 <div>
                     <div className='flex items-center gap-2'>
@@ -55,8 +55,8 @@ const Hero = () => {
                 </div>
 
                 <button className='flex items-center justify-center gap-1 rounded-md bg-black py-3 px-4 text-white my-auto cursor-pointer max-md:w-full max-md:py-1' >
-                       <img src={assets.searchIcon} className='h-7' alt="" />
-                   
+                    <img src={assets.searchIcon} className='h-7' alt="" />
+
                     <span>Search</span>
                 </button>
             </form>
